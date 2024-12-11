@@ -1,0 +1,9 @@
+QUESTION:Explain the difference between Justify-items and justify-self using code examples.
+Answer:
+A) Justify-items - 
+1) This property is used to align all the items inside a grid container horizontally (left to right).
+2) It affects the alignment of every item in the grid container, except for the items that have their own specific alignment set using justify-self.
+
+B) Justify-self -
+1) This property is used to align a specific grid item horizontally (left to right) inside its grid cell.
+2) It overrides the alignment set by justify-items for that particular item
